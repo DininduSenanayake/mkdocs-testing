@@ -77,14 +77,19 @@ $ tail -n 4 Mus_musculus.GRCm38.75_chr1.bed
     
 </div>
 
+<div class="results" markdown>
 
-???+ Exercise-4.2
+???+ Solution_2
 
-    We can also use tail to remove the header of a file. Normally the `-n` argument specifies how many of the last lines of a file to include, 
-    but if `-n` is given a number `x` preceded with a `+` sign (e.g., `+x` ), 
-    tail will start from the x<sup>th</sup> line. So to chop off a header, we start from the second line with `-n +2`.  
-    Use the `seq` command to generate a file containing the numbers 1 to 10, and then use the `tail` command to chop off the first line.
+      Check..Check `check` the status
+	```
+	$ grep awk
+	$ tail -n 4 Mus_musculus.GRCm38.75_chr1.bed 
+	$ head -n 4 Mus_musculus.GRCm38.75_chr1.bed 
+	```
+    
 
+</div>
 
 
 ## Extract summary information with wc
@@ -145,14 +150,15 @@ $ cut -f 2-3 Mus_musculus.GRCm38.75_chr1.bed | head -n 3
  3054233	3054733
  3054233	3054733
  3054233	3054733
- ```
+```
 Using `cut` , we can convert our GTF for ***Mus_musculus.GRCm38.75_chr1.gtf*** to a three-column tab-delimited file of genomic ranges (e.g., chromosome, start, and end position). We’ll chop off the metadata rows using the grep command covered earlier, and then use cut to extract the first, fourth, and fifth columns (chromosome, start, end):
 
 ```bash
 $ grep -v "^#" Mus_musculus.GRCm38.75_chr1.gtf | cut -f1,4,5 | head -n 3
-1	3054233	3054733
-1	3054233	3054733
-1	3054233	3054733
+ 
+ 1	3054233	3054733
+ 1	3054233	3054733
+ 1	3054233	3054733
 ```
 Note that although our three-column file of genomic positions looks like a BED- formatted file, it’s not due to subtle differences in genomic range formats
 

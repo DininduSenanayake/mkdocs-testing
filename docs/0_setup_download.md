@@ -10,6 +10,9 @@
 * Do not remove this line (it will not be displayed)
 {:toc}
 
+<figure markdown>
+  ![unix logo](./images/unix_logo.png){: style="width:200px"}
+</figure>
 
 ### Windows hosts
 
@@ -31,7 +34,7 @@
 
 #### Download with `wget` from a terminal client
 
-```bash
+```sh
 $ wget -c https://github.com/GenomicsAotearoa/bash-for-bioinformatics/releases/download/v1.0rc1/data_shell4b.tar.gz
 ```
 OR
@@ -39,6 +42,32 @@ OR
 ```bash
 $ wget -c https://github.com/GenomicsAotearoa/bash-for-bioinformatics/releases/download/v1.0rc1/data_shell4b.zip
 ```
+
+### Testing a content tab
+
+=== "C"
+
+    ```c
+    #include <stdio.h>
+    int main(void)
+    ```
+=== "C++"
+
+    ```c++
+    #include <iostream>
+    int main)void)
+    ```
+=== "R"
+
+    ```r
+    png(filename="plot.png")  # This line redirects plots from screen to plot.png file.
+
+    # Define the cars vector with 5 values
+    cars <- c(1, 3, 6, 4, 9)
+
+    # Graph the cars vector with all defaults
+    plot(cars)
+    ```
 
 - - - 
 <p style="text-align:left;">
