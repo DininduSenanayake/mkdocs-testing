@@ -18,7 +18,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Testing new content after gh-deploy
 
-!!! quote "[Checking quotes]"
+!!! quote "Checking quotes"
 
     This is to check whether quote plugin is working
     correctly
