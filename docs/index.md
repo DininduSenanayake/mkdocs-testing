@@ -24,3 +24,17 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     correctly
 
 some other text
+
+
+<div class="results" markdown>
+
+???+ Check_1
+
+    text check for drop down
+
+    ```bash
+    $ grep...
+    ```
+    
+
+</div>
