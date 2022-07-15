@@ -3,7 +3,7 @@ site_name: mkdocs-test
 
 theme:
   name: material
-  logo: ./docs/images/logo.png
+  logo: docs/images/logo.png
   favicon: docs/images/logo.png
    # 404 page
   static_templates:
