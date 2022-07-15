@@ -17,3 +17,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         ...       # Other markdown pages, images and other files.
 
 ## Testing new content after gh-deploy
+
+!!! quote "[Checking quotes]"
+
+    This is to check whether quote plugin is working
+    correctly
+
+some other text
