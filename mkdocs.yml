@@ -1,5 +1,8 @@
 site_name: MkDocs Test Environment
 
+#Repository
+repo_name: DininduSenanayake/mkdocs-testing
+repo_url: https://github.com/DininduSenanayake/mkdocs-testing.git
 
 theme:
   name: material
@@ -21,6 +24,10 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+
+extra:
+  version:
+    provider: mike
 
 markdown_extensions:
   - abbr
