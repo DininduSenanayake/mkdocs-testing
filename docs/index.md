@@ -41,5 +41,7 @@ some other text
 </div>
 
 
-## Checking versioning : Now changing to 3
+### Checking versioning : Now changing to v2.0
+
+Checking version 2.0
 
